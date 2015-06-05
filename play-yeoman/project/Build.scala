@@ -6,7 +6,7 @@ import PlayKeys._
 object ApplicationBuild extends Build {
 
   val appName = "play-yeoman"
-  val appVersion = "0.7.3"
+  val appVersion = "0.7.4"
 
   val appDependencies = Seq(
     // Add your project dependencies here,
@@ -18,7 +18,7 @@ object ApplicationBuild extends Build {
     version := appVersion,
     libraryDependencies ++= appDependencies,
     // Add your own project settings here
-    scalaVersion in Global := "2.10.4",
+    scalaVersion in Global := "2.11.1",
     crossScalaVersions := Seq("2.10.4", "2.11.1"),
     homepage := Some(url("https://github.com/tuplejump/play-yeoman")),
     organization := "com.tuplejump",
